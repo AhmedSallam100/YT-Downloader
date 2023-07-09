@@ -13,8 +13,7 @@ downloadVideoBtn.addEventListener("click", () => {
   }
 });
 
-let sendURL = (URL) =>
-  (location.href = `${window.location.href}?URL=${URL}`);
+let sendURL = (URL) => (location.href = `${window.location.href}?URL=${URL}`);
 downloadthumBtn.addEventListener("click", () => {
   var query = urlInput.value;
   if (urlInput.value == "") {
